@@ -19,7 +19,7 @@ int main()
     long rate;
 
     /* initializations */
-    const char* audio_file = "../stormtrooperchatteroriginal.mp3";
+    const char* audio_file = "../audio/starwarssfxwithmeme.mp3";
     ao_initialize();
     driver = ao_default_driver_id();
     mpg123_init();
